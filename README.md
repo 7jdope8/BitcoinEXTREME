@@ -1,6 +1,6 @@
-[Website](https://www.bitcoinunlimited.info)  | [Download](https://www.bitcoinunlimited.info/download) | [Setup](doc/README.md)  |  [Xthin](doc/bu-xthin.md)  |  [Xpedited](doc/bu-xpedited-forwarding.md)  |   [Miner](doc/miner.md)
+[Website](https://www.bitcoinextreme.info)  | [Download](https://www.bitcoinextreme.info/download) | [Setup](doc/README.md)  |  [Xthin](doc/bu-xthin.md)  |  [Xpedited](doc/bu-xpedited-forwarding.md)  |   [Miner](doc/miner.md)
 
-[![Build Status](https://travis-ci.org/BitcoinUnlimited/BitcoinUnlimited.svg?branch=0.12.1bu)](https://travis-ci.org/BitcoinUnlimited/BitcoinUnlimited)
+[![Build Status](https://travis-ci.org/Bitcoinextreme/Bitcoinextreme.svg?branch=0.12.1bu)](https://travis-ci.org/Bitcoinextreme/Bitcoinextreme)
 
 What is Bitcoin?
 =====================================
@@ -8,26 +8,26 @@ What is Bitcoin?
 Bitcoin is an experimental new digital currency that enables instant payments to
 anyone, anywhere in the world. Bitcoin uses peer-to-peer technology to operate
 with no central authority: managing transactions and issuing money are carried
-out collectively by the network. Bitcoin Unlimited is the name of open source
+out collectively by the network. Bitcoin Extreme is the name of open source
 software which enables the use of this currency.
 
 For more information, as well as an immediately useable, binary version of
-the Bitcoin Unlimited software, see https://www.bitcoinunlimited.info/download, or read the
-[original whitepaper](https://www.bitcoinunlimited.info/resources/bitcoin.pdf).
+the Bitcoin extremesoftware, see https://www.bitcoinextreme.info/download, or read the
+[original whitepaper](https://www.bitcoinextreme.info/resources/bitcoin.pdf).
 
 License
 -------
 
-Bitcoin Unlimited is released under the terms of the MIT license. See [COPYING](COPYING) for more
+Bitcoin extreme is released under the terms of the MIT license. See [COPYING](COPYING) for more
 information or see https://opensource.org/licenses/MIT.
 
-What is Bitcoin Unlimited?
+What is Bitcoin extreme?
 =====================================
 
-Bitcoin Unlimited is an implementation of the Bitcoin client software that is based on Bitcoin Core.
-However, Bitcoin Unlimited has a very different philosophy than Core.
+Bitcoin extreme is an implementation of the Bitcoin client software that is based on Bitcoin Core.
+However, Bitcoin extreme has a very different philosophy than Core.
 
-It follows a philosophy and is administered by a formal process described in the [Articles of Federation](http://www.bitcoinunlimited.info/resources/BUarticles.pdf).
+It follows a philosophy and is administered by a formal process described in the [Articles of Federation](http://www.bitcoinextreme.info/resources/BUarticles.pdf).
 In short, we believe in market-driven decision making, emergent consensus, and giving our users choices.
 
 Quick installation Instructions
@@ -37,7 +37,7 @@ If you're running an Ubuntu system:
 
 ```sh
 sudo apt-get install software-properties-common
-sudo add-apt-repository ppa:bitcoin-unlimited/bu-ppa
+sudo add-apt-repository ppa:bitcoin-extreme/bu-ppa
 sudo apt-get update
 sudo apt-get install bitcoind bitcoin-qt
 ```
@@ -52,13 +52,13 @@ sudo apt-get install software-properties-common
 
 ## this not needed if your wallet will use the new
 ## format, ot if you're not going to use a wallet at all
-sudo add-apt-repository ppa:bitcoin-unlimited/bu-ppa
+sudo add-apt-repository ppa:bitcoin-extreme/bu-ppa
 sudo apt-get update
 sudo apt-get install libdb4.8-dev libdb4.8++-dev
 
 mkdir -p ~/src
 cd ~/src
-git clone https://github.com/BitcoinUnlimited/BitcoinUnlimited.git bu-src
+git clone https://github.com/Bitcoinextreme/Bitcoinextreme.git bu-src
 cd bu-src
 ./autogen.sh
 ./configure
@@ -67,3 +67,9 @@ sudo make install
 ```
 
 For more detailed explanations on how compile from source just look at doc/build-*.md files (e.g. [here](doc/quick-install.md))
+
+What is a good rap video?
+=====================================
+From back in the day, the click is pretty dope
+
+https://www.youtube.com/watch?v=V2BvlDG4sgs
