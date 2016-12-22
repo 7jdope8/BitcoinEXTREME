@@ -67,9 +67,3 @@ sudo make install
 ```
 
 For more detailed explanations on how compile from source just look at doc/build-*.md files (e.g. [here](doc/quick-install.md))
-
-What is a good rap video?
-=====================================
-From back in the day, the click is pretty dope
-
-https://www.youtube.com/watch?v=V2BvlDG4sgs
